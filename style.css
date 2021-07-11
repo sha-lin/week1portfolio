@@ -1,18 +1,19 @@
 body{
     font-size: 30px;
     background-color: bisque;
+    text-align: justify;
 }
 img{
     border-radius: 45px;
     width: 400px;
     clip-path:circle();
-    justify-content: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: 50vh;
     display: flex;
-    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
 }
 h5{
     font-size: 25px;
@@ -21,9 +22,9 @@ h4{
     font-size: 25px;
 }
 h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 h1{
-    text-align: center;
+    text-align: justify;
     font-size: 45px;
 }
